@@ -1,0 +1,93 @@
+* {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header Styling */
+header {
+    display: flex;
+    background-color: slategray;
+    height: 35px;
+    padding: 15px;
+}
+
+header h3 {
+    color: white;
+}
+
+nav a{
+    color: white;
+    justify-content: space-around;
+}
+
+.company {
+    display: flex;
+    justify-content: left;
+}
+
+header nav{
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+/* Main Content styling */
+
+
+.more-you-know {
+    flex-direction: row;
+    background-color: black;
+    font-size: 40px;
+    width: 150vw;
+    height: 30vh;
+    justify-content: center;
+
+}
+
+.more-you-know h1 {
+    color: rgb(221, 200, 83);
+    align-self: center;
+    padding: 80px;
+}
+
+.square-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 45px;
+}
+
+.squares {
+    background-color: rgb(88, 238, 175);
+    height: 250px;
+    width: 250px;
+    border-radius: 15%;
+}
+
+.rectangles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.two-rectangles {
+    background-color: orange;
+    height: 275px;
+    width: 450px
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    margin-top: 100px;
+    margin-bottom: 25px;
+    padding-right: 100px;
+    padding-left: 25px;
+}
+
+.rhino {
+    margin: 50px;
+}
